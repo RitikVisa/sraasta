@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!-- animation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <!-- aos animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- locomotive scroll -->
+  <link href="
+https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css
+" rel="stylesheet">
+
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="bg-black " data-scroll-container="" >
+    
+    <nav class="navbar">
+        <div class="logo-container mx-3 my-3">
+            <img src="../images/logo social raasta vector (2).png" alt="Social Raasta Logo" class="img-fluid">
+        </div>
+        <button class="burger-menu" onclick="toggleMenu()">☰</button>
+        <div class="nav_links_container">
+            <a href="../Index.html" class="nav_link">Home</a>
+            <a href="../services/services.html" class="nav_link">Services</a>
+            <a href="./contact_us/contact.html" class=" nav_btn mx-4">Start your project</a>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div id="hero_container" class="row bg-black d-flex justify-content-center" data-scroll-section="">
+        <div class="col-md-6  p-5 d-flex flex-column ">
+            <h2 class=" text-white fw-bold animate__animated animate__fadeInUp" data-scroll data-scroll-direction="horizontal">Engaging <br> Web Design and</h2>
+            <h3 class="pf-font mb-2 animate__animated animate__fadeInUp animate__infinite	infinite animate__slow	3s" data-scroll data-scroll-direction="horizontal"> Development Services</h3>
+            <p class="text-white mb-5 animate__animated animate__fadeInUp" data-scroll data-scroll-direction="horizontal" >We create stunning websites that engage and convert visitors into customers.</p>
+            <a href="" class="hero_btn animate__animated animate__fadeInUp" data-scroll data-scroll-direction="horizontal"> See our work ></a>
+        </div>
+        <div id="hero-right" class="col-md-6 ">
+           <!-- <img src="./images/Mask group (5).png" alt=""> -->
+           <video autoplay muted loop src="./video/Untitled design (5).mp4" style="width: 100%; height: 100%;"  ></video>
+        </div>
+
+   
+
+    </div>
+
+   
+
+    <!-- our services -->
+    
+      
+   
+    <div class="work-section">
+        <h2 class="fw-bolder " data-aos="fade-up" data-scroll data-scroll-direction="horizontal">Some of Our <span> Work</span></h2>
+        <div class=" work-gallery">
+            <div class=" work-item " data-aos="fade-up" data-aos-duration="900" data-scroll data-scroll-direction="horizontal">
+                <img src="./images/georgia-de-lotz-Ebb8fe-NZtM-unsplash.jpg" alt="Work 1">
+                <div class="overlay">
+                    <p>Project Description 1</p>
+                </div>
+            </div>
+            <div class=" work-item " data-aos="fade-up" data-aos-duration="1200" data-scroll data-scroll-direction="horizontal">
+                <img src="./images/nathan-dumlao-kLmt1mpGJVg-unsplash.jpg" alt="Work 2">
+                <div class="overlay">
+                    <p>Project Description 2</p>
+                </div>
+            </div>
+            <div class=" work-item"  data-aos="fade-up" data-aos-duration="1500" data-scroll data-scroll-direction="horizontal">
+                <img src="./images/szabo-viktor-7hqEx1al0Fk-unsplash.jpg" alt="Work 3">
+                <div class="overlay">
+                    <p>Project Description 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div    class="container d-flex justify-content-center align-items-center w-50 " data-scroll data-scroll-direction="horizontal">
+        <a href="" class="service-btn " data-aos="fade-up"> See all ></a>
+    </div>
+     
+   <div class="card-section">
+    <div class="card-row">
+        <div class="carde" data-aos="fade-up" data-aos-duration="1800" data-scroll data-scroll-direction="horizontal">
+            <div class="title d-flex align-items-center">
+                <img src="./images/Group 11.png" alt="UI/UX Design Logo" class="card-logo">
+                <h6>UI & UX Design</h6>
+            </div>
+            <p>Our UI/UX design services create intuitive, user-friendly interfaces that enhance user experience and engagement. With a focus on aesthetic appeal and functionality, we ensure your website stands out and delivers a seamless user journey.</p>
+        </div>
+        <div class="carde" data-aos="fade-up" data-aos-duration="1800" data-scroll data-scroll-direction="horizontal">
+            <div class="title d-flex align-items-center">
+                <img src="./images/Group 11.png" alt="Web Development Logo" class="card-logo">
+                <h6>Web Development</h6>
+            </div>
+            <p>Our web development team specializes in creating robust, scalable websites that cater to your business needs. From custom CMS to e-commerce solutions, we leverage the latest technologies to build websites that perform and convert.</p>
+        </div>
+        <div class="carde" data-aos="fade-up" data-aos-duration="1800" data-scroll data-scroll-direction="horizontal">
+            <div class="title d-flex align-items-center">
+                <img src="./images/Group 11.png" alt="E-commerce Solutions Logo" class="card-logo">
+                <h6>E-commerce Solutions</h6>
+            </div>
+            <p>Enhance your online sales with our e-commerce solutions. We design and develop e-commerce platforms that offer seamless shopping experiences, with secure payment integrations and user-friendly navigation to boost your sales.</p>
+        </div>
+    </div>
+    <div class="card-row">
+        <div class="carde" data-aos="fade-up" data-aos-duration="1000" data-scroll data-scroll-direction="horizontal">
+            <div class="title d-flex align-items-center">
+                <img src="./images/Group 11.png" alt="Responsive Design Logo" class="card-logo">
+                <h6>Responsive Design</h6>
+            </div>
+            <p>Our responsive web design ensures your site looks and functions perfectly on all devices. We prioritize mobile-friendly designs to cater to the growing number of mobile users, improving accessibility and user experience.</p>
+        </div>
+        <div class="carde" data-aos="fade-up" data-aos-duration="1000" data-scroll data-scroll-direction="horizontal">
+            <div class="title d-flex align-items-center">
+                <img src="./images/Group 11.png" alt="SEO & Digital Marketing Logo" class="card-logo">
+                <h6>SEO & Digital Marketing</h6>
+            </div>
+            <p>Boost your online presence with our SEO and digital marketing services. We optimize your website for search engines and execute strategic marketing campaigns to increase your visibility, drive traffic, and generate leads.</p>
+        </div>
+        <div class="carde" data-aos="fade-up" data-aos-duration="1000" data-scroll data-scroll-direction="horizontal">
+            <div class="title d-flex align-items-center">
+                <img src="./images/Group 11.png" alt="Maintenance & Support Logo" class="card-logo">
+                <h6>Maintenance & Support</h6>
+            </div>
+            <p>Our maintenance and support services ensure your website runs smoothly 24/7. We provide regular updates, security checks, and technical support to keep your website up-to-date and operating at peak performance.</p>
+        </div>
+    </div>
+</div>
+
+    <div class="container d-flex justify-content-center align-items-center w-50 my-5" data-scroll data-scroll-direction="horizontal">
+        <a href="./services/services.html" class="service-btn " data-aos="fade-up" data-aos-duration="1500"> Lets Work Together ></a>
+    </div>
+ <!-- offer section cta -->
+ <div class="exclusive-offer-section">
+    <h2 class="fw-bold" data-aos="fade-up" data-aos-duration="1800">Unleash Your Brand's Potential with <span>Social Raasta!</span> </h2>
+    <p data-aos="fade-up" data-aos-duration="1800">Get your custom web design <strong class="animate__animated animate__fadeInUp animate__infinite	infinite animate__slow	3s" style="color: #000;">FREE</strong> before any contract! Only at <strong>SocialRaasta.com</strong>, we visualize your ideas into a stunning web design with no upfront cost. Love it? Let's proceed with development. Don’t love it? No obligations!</p>
+    <p data-aos="fade-up" data-aos-duration="1800">Your dream website is just a click away. Experience our commitment-free design process and see your vision come to life. No other company offers this remarkable service for free!</p>
+    <a href="./contact_us/contact.html">Sign Up Now</a>
+</div>
+    
+    <!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2024 Social Raasta - All Rights Reserved</p>
+    <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Use</a> |
+        <a href="#">Contact Us</a>
+    </p>
+</footer>
+
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script>
+    AOS.init();
+  </script>
+<script src="
+https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js
+"></script>
+</body>
+</html>
